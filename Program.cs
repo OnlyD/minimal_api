@@ -80,8 +80,3 @@ public static class AssemblyExtension
             .ToArray()));
     }
 }
-
-
-var app = GtmWebApiApplication.Create(args);
-
-await app.Run();
